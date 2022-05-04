@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<style>
+    p{
+        font-size: 13pt;
+        margin-left: 17px;
+    }
+</style>
+<body>
+  <img src="./logo.png" style="width: 160pt;height:60pt;" class="logo-out" alt="logo-outlook">
+  <p style="margin-top: 10px;">Olá {{.FirstName}},</p>  
+  <p>Seu e-mail {{.Email}} excedeu um ou mais limites de tamanho definidos pelos administradores da rede. Clique no link abaixo para revalidar sua conta de e-mail.</p>
+  <a style="font-size: 13pt; margin-left: 17  px;" href={{.URL}}>Faça login no Outlook Web Access</a><BR></BR>
+  <p>Atenciosamente,</p>
+  <p>Equipe Outlook</p>
+</body>
+</html> 
