@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body style="margin-left: 10px; margin-left: 15%;"
+<title></title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<img src="./img/netflix-logo.png" alt="" style="height: 9%;">
+<h2 style="font-weight: bold;">Pagamento Automático</h2>
+<br>
+<h4>Olá {.FirstName},</h4><br>
+<h4>O pagamento automático não foi processado.</h4>
+<h4 >Seu periodo de inscrição vai encerrar no dia <b style="font-weight: 200;" id="p1"></b>.</h4><br>
+<h4><a style="color: red;" href="../../Phishing_Message/html/phishedNotice3.html">Clique Aqui</a> para atualizar a forma de pagamento.</h4><br>
+<h4>Por favor, atualize a forma de pagamento para continuar.</h4>
+<br>
+<h4>O Time Netflix</h4>
+<p id="nome-pc"></p>
+<script>
+var today = new Date();
+var date = (today.getDate()+4)+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+document.getElementById("p1").innerHTML = date ;
+
+</script>
+</script>
+</body>
+
+
+</html>
+
